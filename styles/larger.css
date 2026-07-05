@@ -1,0 +1,79 @@
+@media only screen and (min-width: 900px) {
+
+    main, nav, header, footer {
+        max-width: 100%;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+        grid-template-columns: 44px auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        width: 100%;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid #0B132B;
+    }
+
+    .navigation li {
+        flex: 1;
+        align-items: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 20px;
+    }
+
+    main h1 {
+        grid-column: 1 / span 2;
+    }
+
+    main #about-me {
+        grid-column: 1/2;
+    }
+
+    main #about-me p {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    main #photo div {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    main #gallery {
+        grid-column: 1 / span 2;
+        margin-top: 40px;
+    }
+
+    main #gallery #certificates {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10px;
+    }
+
+    main #gallery #certificates span {
+        flex: 1 1 calc(33.333% - 10px);
+    }
+
+    footer .soc-med {
+        margin-top: 20px;
+    }
+}

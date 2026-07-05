@@ -3,11 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page for WDD 231 Course</title>
+    <title>WDD 231 - Home Page</title>
     <meta name="author" content="Kent Zeniff Depaloma">
+    <meta name="description" content="A website home page for chamber commerce as a course project.">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <img src="images/genius-club.svg" alt="genius club logo" width="512" height="512">
+        <span>Genius Club</span>
+        <button id="nav-button" class="hamburger"></button>
+    </header>
+    <nav id="nav" class="">
+        <ul id="nav-list" class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 id="hero">Home</h1>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut neque officia porro quas error atque nisi nostrum aliquid consequatur fuga veniam maxime totam quidem pariatur asperiores, optio, odio laudantium praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, error. Explicabo ad quasi veniam labore et dolor animi autem aut excepturi itaque. Repellat libero aliquam eveniet quos blanditiis accusamus cupiditate.</p>
+        </section>
+        <section id="photo">
+            <h2>Student Photo</h2>
+            <div>
+                <img src="images/student-photo.jpg" alt="A photo of the author.">
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Web Certificate Courses</h2>
+            <div id="gallery-button">
+                <a href="#" id="all">All</a>
+                <a href="#" id="cse">CSE</a>
+                <a href="#" id="wdd">WDD</a>
+            </div>
+            <p> The total number of credits listed below is <span id="showCredits"></span></p>
+            <div id="certificates">
+        
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="soc-med">
+            <a href="https://www.linkedin.com/in/kent-zeniff-depaloma-3427a4409/"><img src="images/linkedin-circle.svg" width="512" height="512"></a>
+            <a href="https://github.com/Zen052128/wdd231"><img src="images/github.svg" width="512" height="512"></a>
+            <a href="#"><img src="images/twitter-alt-circle.svg" width="512" height="512"></a>
+            <a href="#"><img src="images/instagram-circle.svg" width="512" height="512"></a>
+        </div>
+        <div id="footer-info">
+        <p>© <span id="currentyear"></span> | Kent Zeniff Depaloma | Philippines</p>
+        <p>Last Modified: <span id="lastModified"></span></p> 
+        </div>
+    </footer>
 </body>
 </html>

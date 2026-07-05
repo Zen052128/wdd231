@@ -1,0 +1,262 @@
+/* COLOR SCHEME
+--color-1: #0B232B - mindnight green;
+--color-2: #0B132B - midnight blue;
+--color-3: #130B2B - midnight purple; */
+
+/* ALL */
+* {
+    font-family: Merriweather, sans-serif;
+    box-sizing: border-box;
+}
+
+main, nav, header, footer {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        box-sizing:border-box;
+}
+
+/* HEADER */
+header{
+    display: grid;
+    grid-template-columns: 44px auto 44px;
+    column-gap: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #dddddd;
+    align-items: center;
+}
+
+header img {
+    display: block;
+    width: 110%;
+    height: auto;
+    padding-left: 5px;
+}
+
+header span {
+    display: block;
+    font-size: 2.5rem;
+    color: #0B132B;
+}
+
+/* NAVIGATION */
+.hamburger {
+    background: none;
+    border: none;
+    color: #0B132B;
+    cursor: pointer;
+    font-family: Merriweather, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+nav {
+    display: none;
+}
+
+nav.show {
+    display: block;
+    width: 100%;
+}
+
+.navigation {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color:#0B132B;
+    font-size: 1.5rem;
+    background-color: #130B2B99;
+    padding: 15px;
+    border-bottom: 1px solid #0B132B30;
+    text-align: center;
+}
+
+.navigation a:hover {
+    background-color:  #130B2B;
+    color: #ffffff;
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    padding: 0;
+    color: #0B132B;
+    font-size: 2rem;
+}
+
+main h2 {
+    margin: 0;
+    width: 100%;
+    background-color: #0B132B;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main p {
+    width: 100%;
+    margin: 0;
+    padding: 10px 10px 40px 10px;
+    background-color: #130B2B60;
+    font-size: 1.2rem;
+}
+
+main #about-me {
+    margin-bottom: 20px;
+}
+
+main #photo div {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #130B2B60;
+    justify-content: center;
+    align-items: center;
+}
+
+main #photo img {
+    width: 75%;
+    height: auto;
+    margin: 10px 0 20px 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+main #photo {
+    margin-bottom: 20px;
+}
+
+main #gallery {
+    width: 100%;
+}
+
+main #gallery-button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding: 5px 5px 10px 5px;
+}
+
+main #gallery-button a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #0B132B;
+    border-radius: 10px;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    color: #0B132B;
+    background-color: #130B2B60;
+}
+
+main #gallery-button a:hover {
+    background-color: #130B2B99;
+}
+
+main #gallery #certificates {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+main #gallery #certificates span.incomplete {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px 0;
+    border: 1px solid #0B132B;
+    background-color:#130B2B60;
+    color:#0B132B;
+}
+
+main #gallery #certificates span.completed {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px 0;
+    border: 1px solid #0B132B;
+    background-color:#0B232B60;
+    color:#0B132B;
+}
+
+main #gallery #certificates span:hover.incomplete {
+    background-color: #130B2B99;
+    color: #ffffff;
+}
+
+main #gallery #certificates span:hover.completed {
+    background-color: #0B232B99;
+    color: #ffffff;
+}
+
+main #gallery p {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    color: #0B132B;
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer #footer-info p {
+    margin: 0;
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+footer #footer-info {
+    padding: 15px;
+    display: block;
+    clear: both;
+    text-align: center;
+    color:#0B132B;
+    background-color:#130B2B60;
+}
+
+.soc-med {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.soc-med a {
+    display: block;
+}
+
+.soc-med img {
+    width: 70px;
+    height: auto;
+    padding: 5px;
+}

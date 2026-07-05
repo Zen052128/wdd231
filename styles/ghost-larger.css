@@ -1,0 +1,29 @@
+@media only screen and (min-width: 38rem) {
+
+    main, nav, header, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    header{
+        grid-template-columns: 24px auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation.hidden {
+        display: block;
+    }
+
+    .navigation ul {
+        flex-direction: row;
+    }
+
+    .navigation a:hover {
+        border: .5px solid #FFFFFF90;
+        border-bottom: none;
+    }
+    
+}
