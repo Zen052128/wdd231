@@ -1,0 +1,79 @@
+{"companies": [
+    {
+        "companyName": "Aurora Tech Solutions",
+        "address": "125 Innovation Drive, Cedar City, UT 84270",
+        "phone": "(435) 555-1023",
+        "website": "https://www.auroratechsolutions.com",
+        "image": "aurora-tech.jpg",
+        "membershipeLevel": 3,
+        "description": "Provides software development, cloud solutions, and IT consulting for small businesses.",
+        "contactPerson": "Emma Brooks",
+        "email": "info@auroratechsolutions.com"
+    },
+    {
+    "companyName": "Blue Peak Coffee Co.",
+    "address": "78 Main Street, Logan, UT 84321",
+    "phone": "(435) 555-2145",
+    "website": "https://www.bluepeakcoffee.com",
+    "image": "blue-peak-coffee.jpg",
+    "membershipLevel": 2,
+    "description": "A locally owned coffee shop serving handcrafted beverages and fresh pastries.",
+    "contactPerson": "Liam Carter",
+    "email": "hello@bluepeakcoffee.com"
+  },
+  {
+    "companyName": "Green Valley Landscaping",
+    "address": "550 Garden Lane, Provo, UT 84601",
+    "phone": "(801) 555-3388",
+    "website": "https://www.greenvalleylandscaping.com",
+    "image": "green-valley-landscaping.jpg",
+    "membershipLevel": 1,
+    "description": "Residential and commercial landscaping, lawn maintenance, and irrigation services.",
+    "contactPerson": "Sophia Martinez",
+    "email": "service@greenvalleylandscaping.com"
+  },
+  {
+    "companyName": "Summit Fitness Center",
+    "address": "980 Wellness Blvd, St. George, UT 84770",
+    "phone": "(435) 555-4499",
+    "website": "https://www.summitfitnesscenter.com",
+    "image": "summit-fitness.jpg",
+    "membershipLevel": 2,
+    "description": "Modern fitness center offering personal training, group classes, and wellness programs.",
+    "contactPerson": "Jacob Wilson",
+    "email": "contact@summitfitnesscenter.com"
+  },
+  {
+    "companyName": "Silver Oak Realty",
+    "address": "240 Market Avenue, Ogden, UT 84401",
+    "phone": "(801) 555-5612",
+    "website": "https://www.silveroakrealty.com",
+    "image": "silver-oak-realty.jpg",
+    "membershipLevel": 3,
+    "description": "Real estate agency helping families buy, sell, and invest in properties.",
+    "contactPerson": "Olivia Thompson",
+    "email": "office@silveroakrealty.com"
+  },
+  {
+    "companyName": "Bright Horizons Bakery",
+    "address": "67 Maple Road, Rexburg, ID 83440",
+    "phone": "(208) 555-6721",
+    "website": "https://www.brighthorizonsbakery.com",
+    "image": "bright-horizons-bakery.jpg",
+    "membershipLevel": 1,
+    "description": "Family-owned bakery specializing in artisan bread, cakes, and pastries.",
+    "contactPerson": "Noah Anderson",
+    "email": "orders@brighthorizonsbakery.com"
+  },
+  {
+    "companyName": "NextGen Marketing Agency",
+    "address": "315 Commerce Plaza, Salt Lake City, UT 84101",
+    "phone": "(801) 555-7834",
+    "website": "https://www.nextgenmarketingagency.com",
+    "image": "nextgen-marketing.jpg",
+    "membershipLevel": 3,
+    "description": "Digital marketing agency offering SEO, social media management, branding, and web design.",
+    "contactPerson": "Ava Johnson",
+    "email": "support@nextgenmarketingagency.com"
+  }
+]}
