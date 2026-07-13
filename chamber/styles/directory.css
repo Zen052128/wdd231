@@ -163,3 +163,10 @@ footer #footer-info p {
     padding: 0;
     margin: 10px 0 0 0;
 }
+
+#hero {
+    display: block;
+    margin: 10px;
+    font-size: 2rem;
+    color:#0B132B;
+}

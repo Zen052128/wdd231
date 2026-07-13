@@ -1,0 +1,41 @@
+@media only screen and (min-width: 900px) {
+    main, nav, header, footer {
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 44px auto 44px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        
+    }
+
+    #nav-list {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        background-color: #0B132B10;
+    }
+
+    #nav-list a {
+        background-color: transparent;
+        border-bottom: none;
+    }
+
+    #nav-list a:hover {
+        background-color: transparent;
+        color:#0B132B;
+        text-decoration: underline;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
