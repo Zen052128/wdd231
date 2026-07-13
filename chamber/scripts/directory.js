@@ -42,7 +42,7 @@ const cards = document.querySelector("#business-cards");
 
 const getCompanyData = async () => {
     try {
-        const response = await fetch("data/member.json");
+        const response = await fetch("data/members.json");
         const data = await response.json();
         displayCompanies(data.companies);
         // console.log(data.companies);
