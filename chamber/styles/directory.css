@@ -118,7 +118,7 @@ footer {
     padding: 20px 10px;
 }
 
-footer #gathering-info h3 {
+footer #gathering-info h2 {
     display: block;
     font-weight: bold;
     margin: 0;
@@ -207,7 +207,7 @@ footer #footer-info p {
     max-width: 600px;
 }
 
-#business-cards section h2 {
+#business-cards section h1 {
     display: block;
     width: 100%;
     border-bottom: 3px solid #0B132B40;
