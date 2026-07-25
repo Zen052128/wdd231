@@ -38,6 +38,18 @@ modify.innerHTML = lastModified;
 //     pageTitle.textContent = activeLinkOnLoad.textContent;
 // };
 
+const getCompanyData = async () => {
+    try {
+        const response = await fetch("data/members.json");
+        const data = await response.json();
+        displayCompanies(data.companies);
+        // console.log(data.companies);
+    } catch (error) {
+        console.error("Error fetching data:", error)
+    };
+};
+
+
 const cards = document.querySelector("#spotlights");
 
 async function getMembers(){
@@ -47,8 +59,8 @@ const response = await fetch("data/members.json");
 const data = await response.json();
 
 const premium = data.companies.filter(company =>
-company.membership === "Gold" ||
-company.membership === "Silver"
+company.membershipLevel === 2 ||
+company.membershipLevel === 3
 );
 
 premium.sort(()=>0.5-Math.random());
@@ -77,7 +89,7 @@ card.innerHTML=`
 
 <p>${company.website}</p>
 
-<p>${company.membership}</p>
+<p>${company.membershipLevel}</p>
 
 `;
 

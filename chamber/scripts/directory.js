@@ -18,25 +18,25 @@ const modify = document.querySelector("#lastModified");
 const lastModified = document.lastModified;
 modify.innerHTML = lastModified;
 
-const navLinks = document.querySelectorAll(".nav-link");
-const pageTitle = document.querySelector("#hero");
+// const navLinks = document.querySelectorAll(".nav-link");
+// const pageTitle = document.querySelector("#hero");
 
-navLinks.forEach(link => {
-    link.addEventListener("click", function(event) {
-        event.preventDefault();
+// navLinks.forEach(link => {
+//     link.addEventListener("click", function(event) {
+//         event.preventDefault();
 
-        pageTitle.textContent = this.textContent;
+//         pageTitle.textContent = this.textContent;
 
-        document.querySelector(".nav-link.active")?.classList.remove("active");
+//         document.querySelector(".nav-link.active")?.classList.remove("active");
 
-        this.classList.add("active");
-    });
-});
+//         this.classList.add("active");
+//     });
+// });
 
-const activeLinkOnLoad = document.querySelector(".nav-link.active");
-if (activeLinkOnLoad) {
-    pageTitle.textContent = activeLinkOnLoad.textContent;
-};
+// const activeLinkOnLoad = document.querySelector(".nav-link.active");
+// if (activeLinkOnLoad) {
+//     pageTitle.textContent = activeLinkOnLoad.textContent;
+// };
 
 const cards = document.querySelector("#business-cards");
 
