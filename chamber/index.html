@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/directory-large.css">
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/home.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -28,15 +28,66 @@
     </header>
     <nav id="nav" class="">
         <ul id="nav-list" class="navigation">
-            <li><a href="https://zen052128.github.io/wdd231/chamber/home.html" class="nav-link active">Home</a></li>
-            <li><a href="https://zen052128.github.io/wdd231/chamber/directory.html" class="nav-link">Directory</a></li>
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="directory.html" class="nav-link">Directory</a></li>
             <li><a href="#" class="nav-link">Join</a></li>
             <li><a href="#" class="nav-link">Discover</a></li>
         </ul>
     </nav>
     <main>
-        <h1 id="hero"></h1>
-        
+        <h1>Welcome to Genius Gathering</h1>
+
+        <section class="hero">
+
+            <img src="images/hero.jpg" alt="Business networking">
+
+            <div class="hero-text">
+                <h2>Grow Your Business Today</h2>
+
+                <a href="#" class="join-btn">
+                    Join the Chamber
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="home-grid">
+
+            <section class="events">
+
+                <h2>Current Events</h2>
+
+                <p>
+                    Join our Monthly Business Networking Night this Friday at
+                    Genius Hall.
+                </p>
+
+            </section>
+
+            <section class="weather">
+
+                <h2>Weather</h2>
+
+                <p><strong>Current:</strong> <span id="current-temp"></span></p>
+
+                <p><span id="weather-desc"></span></p>
+
+                <h3>3-Day Forecast</h3>
+
+                <ul id="forecast"></ul>
+
+            </section>
+
+        </section>
+
+        <section>
+
+        <h2>Member Spotlights</h2>
+
+        <div id="spotlights"></div>
+
+        </section>
     </main>
     <footer>
         <div id="gathering-info">

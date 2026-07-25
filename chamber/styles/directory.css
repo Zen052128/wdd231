@@ -256,3 +256,58 @@ footer #footer-info p {
     background-color: #0B132B;
     color: #ffffff;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+
+.join-btn {
+    display: inline-block;
+    padding: .8rem 1.5rem;
+    background:#0B132B;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.home-grid{
+    display:grid;
+    gap:1rem;
+    margin:20px;
+}
+
+.events,
+.weather{
+    background:#0B132B10;
+    padding:1rem;
+    border-radius:10px;
+}
+
+#spotlights{
+    display:grid;
+    gap:1rem;
+    margin:20px;
+}
+
+.spotlight{
+    background:#0B132B10;
+    padding:1rem;
+    border-radius:10px;
+    text-align:center;
+}
+
+.spotlight img{
+    width:150px;
+}
