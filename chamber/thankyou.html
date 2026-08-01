@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Chamber Page Directory</title>
+    <meta name="author" content="Kent Zeniff Depaloma">
+    <meta name="description" content="A page dedicated in WDD 231 for the chamber page assignment">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description" content="A page dedicated of genius club's members to interact and share information about all things they need.">
+    <meta property="og:image" content="https://zen052128.github.io/wdd231/chamber/images/networking.jpg">
+    <meta property="og:url" content="https://zen052128.github.io/wdd231/chamber/directory.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+    <link rel="stylesheet" href="styles/thankyou.css">
+    <link rel="stylesheet" href="styles/thankyou-large.css">
+    <script src="scripts/thankyou.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/chamber.ico" alt="Genius club's chamber of commerce icon">
+        <span>Genius Gathering</span>
+        <button id="themeMode-button" class="eclipse"></button>
+        <button id="nav-button" class="hamburger"></button>
+    </header>
+    <nav id="nav" class="">
+        <ul id="nav-list" class="navigation">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="directory.html" class="nav-link">Directory</a></li>
+            <li><a href="join.html" class="nav-link">Join</a></li>
+            <li><a href="#" class="nav-link">Discover</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <h1>Thank You!</h1>
+
+        <section class="thankyou-card">
+
+            <h2>Your Membership Application Has Been Received</h2>
+
+            <p>Thank you for applying to join <strong>Genius Gathering</strong>.</p>
+
+            <p>Below is the information you submitted:</p>
+
+            <div class="submitted-info">
+
+                <p><strong>First Name:</strong> <span id="fname"></span></p>
+
+                <p><strong>Last Name:</strong> <span id="lname"></span></p>
+
+                <p><strong>Email:</strong> <span id="email"></span></p>
+
+                <p><strong>Mobile Phone:</strong> <span id="phone"></span></p>
+
+                <p><strong>Organization:</strong> <span id="organization"></span></p>
+
+                <p><strong>Application Date:</strong> <span id="timestamp"></span></p>
+
+            </div>
+
+            <a href="index.html" class="home-btn">
+                Return Home
+            </a>
+
+        </section>
+
+    </main>
+    <footer>
+        <div id="gathering-info">
+            <h2>Genius Gathering</h2>
+            <p>00 Tingen City</p>
+            <p>Awwa County, Loen</p>
+            <p>fool@geniusclub.org</p>
+            <p>(000) 000-0000</p>
+        </div>
+        <div id="soc-med">
+            <a href="#"><img src="images/youtube.svg" alt="A youtube icon."></a>
+            <a href="#"><img src="images/twitter-alt-circle.svg" alt="A twitter icon."></a>
+            <a href="#"><img src="images/linkedin-circle.svg" alt="A linkedin icon."></a>
+        </div>
+        <div id="footer-info">
+            <p>WDD231 Class Project</p>
+            <p>Kent Zeniff Depaloma</p>
+            <p>&copy;<span id="current-year"></span> | Genius Gathering</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

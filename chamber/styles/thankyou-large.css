@@ -1,0 +1,29 @@
+@media (min-width:900px){
+
+.thankyou-card{
+
+    padding:3rem;
+
+}
+
+.submitted-info{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:10px;
+
+}
+
+.submitted-info p{
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    margin:0;
+
+}
+
+}

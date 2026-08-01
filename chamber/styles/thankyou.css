@@ -1,0 +1,59 @@
+.thankyou-card{
+
+    max-width:700px;
+    margin:40px auto;
+    padding:2rem;
+
+    background:#0B132B10;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.thankyou-card h2{
+
+    text-align:center;
+
+    color:#0B132B;
+
+}
+
+.submitted-info{
+
+    margin:30px 0;
+
+}
+
+.submitted-info p{
+
+    padding:12px;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+.home-btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:12px 24px;
+
+    background:#0B132B;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+}
+
+.home-btn:hover{
+
+    background:#18244d;
+
+}
