@@ -37,5 +37,15 @@ params.get("phone");
 document.querySelector("#organization").textContent =
 params.get("organization");
 
-document.querySelector("#timestamp").textContent =
-params.get("timestamp");
+const timestamp = params.get("timestamp");
+
+const formattedDate = new Date(timestamp).toLocaleString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    second: "2-digit"
+});
+
+document.querySelector("#timestamp").textContent = formattedDate;
