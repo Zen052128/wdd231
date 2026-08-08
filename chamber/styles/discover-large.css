@@ -1,0 +1,120 @@
+/* =========================================
+   DISCOVER PAGE - LARGE SCREEN
+   1025px+
+   ========================================= */
+
+@media only screen and (min-width: 1025px) {
+
+    #discover-main {
+        max-width: 1200px;
+
+        margin: 0 auto;
+
+        padding: 30px;
+    }
+
+
+    /* =====================================
+       VISIT MESSAGE
+       ===================================== */
+
+    #visit-message {
+        max-width: 1100px;
+
+        margin: 20px auto 30px;
+    }
+
+
+    /* =====================================
+       LARGE SCREEN GRID
+       ===================================== */
+
+    #discover-cards {
+
+        display: grid;
+
+        gap: 25px;
+
+        grid-template-columns:
+            repeat(4, 1fr);
+
+        grid-template-areas:
+            "card1 card1 card2 card3"
+            "card4 card5 card5 card6"
+            "card7 card8 card8 card6";
+    }
+
+
+    /* =====================================
+       CARD
+       ===================================== */
+
+    .discover-card {
+
+        min-height: 430px;
+
+        padding: 18px;
+
+        transition:
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
+    }
+
+
+    .discover-card:hover {
+
+        transform: translateY(-3px);
+
+        box-shadow:
+            0 5px 12px #0B132B30;
+    }
+
+
+    /* =====================================
+       IMAGE
+       ===================================== */
+
+    .discover-card img {
+
+        width: 300px;
+
+        height: 200px;
+
+        max-width: 100%;
+
+        margin: 0 auto;
+
+        object-fit: cover;
+
+        transition:
+            transform 0.3s ease,
+            filter 0.3s ease;
+    }
+
+
+    /* =====================================
+       REQUIRED IMAGE HOVER EFFECT
+       ===================================== */
+
+    .discover-card img:hover {
+
+        transform: scale(1.05);
+
+        filter: brightness(0.8);
+    }
+
+
+    /* =====================================
+       BUTTON
+       ===================================== */
+
+    .discover-card button {
+
+        width: auto;
+
+        align-self: center;
+
+        padding: 10px 30px;
+    }
+
+}
