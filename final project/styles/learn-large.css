@@ -1,0 +1,118 @@
+@media only screen and (min-width: 800px) {
+
+    /* HEADER */
+
+    #header-things {
+        max-width: 1200px;
+        margin: auto;
+        grid-template-columns: 60px 1fr auto;
+        padding: 15px 25px;
+    }
+
+    #header-things h1 {
+        font-size: 1.4rem;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        position: static;
+        width: auto;
+        flex-direction: row;
+        background: transparent;
+        gap: 5px;
+    }
+
+    nav a {
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    nav a:hover,
+    nav a.active {
+        background: #1b294d;
+    }
+
+
+    /* HERO */
+
+    .learn-hero {
+        min-height: 560px;
+    }
+
+    .learn-hero h2 {
+        font-size: 3rem;
+    }
+
+    .learn-hero-content {
+        padding: 100px 30px;
+    }
+
+
+    /* WHAT IS */
+
+    .what-is {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 70px;
+        padding: 100px 30px;
+    }
+
+
+    /* WHY */
+
+    .why-section {
+        padding: 90px 30px;
+    }
+
+    .section-heading h2 {
+        font-size: 2.3rem;
+    }
+
+    .importance-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+
+    /* READ */
+
+    .read-section {
+        padding: 100px 30px;
+    }
+
+    .read-section h2 {
+        font-size: 2.3rem;
+    }
+
+
+    /* BUTTONS */
+
+    .button-group {
+        flex-direction: row;
+    }
+
+
+    /* FREE */
+
+    .free-section {
+        padding: 100px 30px;
+    }
+
+
+    /* INVITATION */
+
+    .invitation-section {
+        padding: 100px 30px;
+    }
+
+}

@@ -1,0 +1,227 @@
+/* =========================
+   LARGE SCREEN
+   ========================= */
+
+@media screen and (min-width: 768px) {
+
+    /* =========================
+       HEADER
+       ========================= */
+
+    #header-things {
+        min-height: 80px;
+        max-width: 1250px;
+        margin: 0 auto;
+        padding: 10px 30px;
+
+        display: grid;
+        grid-template-columns: 55px 1fr auto;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo-link img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .site-title {
+        font-size: 1.2rem;
+    }
+
+
+    /* =========================
+       HAMBURGER
+       ========================= */
+
+    .hamburger {
+        display: none;
+    }
+
+
+    /* =========================
+       DESKTOP NAVIGATION
+       ========================= */
+
+    #main-nav {
+        display: flex;
+        position: static;
+
+        width: auto;
+
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+
+        gap: 5px;
+
+        background-color: transparent;
+    }
+
+    #main-nav a {
+        display: block;
+
+        padding: 10px 16px;
+
+        border: none;
+        border-radius: 4px;
+
+        background-color: transparent;
+
+        color: var(--white);
+
+        text-decoration: none;
+        font-size: 0.95rem;
+
+        transition:
+            background-color 0.25s ease,
+            color 0.25s ease;
+    }
+
+    #main-nav a:hover {
+        background-color: var(--light-blue);
+        color: var(--white);
+    }
+
+    #main-nav a.active {
+        background-color: var(--blue);
+        color: var(--white);
+    }
+
+
+    /* =========================
+       HERO
+       ========================= */
+
+    #hero {
+        min-height: 650px;
+    }
+
+    #hero img {
+        height: 650px;
+    }
+
+    .hero-overlay {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .hero-overlay h1 {
+        font-size: 4.2rem;
+        max-width: 800px;
+    }
+
+    .hero-overlay > p:not(.eyebrow) {
+        font-size: 1.1rem;
+    }
+
+
+    /* =========================
+       INTRODUCTION
+       ========================= */
+
+    #introduction {
+        padding: 100px 40px;
+    }
+
+    .intro-text h2 {
+        font-size: 2.6rem;
+    }
+
+
+    /* =========================
+       VERSE
+       ========================= */
+
+    #verse-of-the-day {
+        grid-template-columns: 1fr 1.5fr;
+        align-items: center;
+
+        padding: 80px max(40px, 8%);
+    }
+
+    #verse-of-the-day h2 {
+        font-size: 2.5rem;
+    }
+
+    #verse-text {
+        font-size: 1.3rem;
+    }
+
+
+    /* =========================
+       IMPORTANCE
+       ========================= */
+
+    #important {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: stretch;
+    }
+
+    .importance-image {
+        min-height: 550px;
+    }
+
+    .importance-image img {
+        height: 100%;
+        min-height: 550px;
+    }
+
+    .importance-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding: 70px 8%;
+    }
+
+    #important h2 {
+        font-size: 2.5rem;
+    }
+
+
+    /* =========================
+       NEXT SECTION
+       ========================= */
+
+    #next {
+        padding: 100px 5%;
+    }
+
+    #next h2 {
+        font-size: 2.5rem;
+    }
+
+    .feature-cards {
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .feature-card {
+        height: 430px;
+    }
+
+
+    /* =========================
+       INVITATION
+       ========================= */
+
+    #invitation {
+        padding: 100px 30px;
+    }
+
+    #invitation h2 {
+        font-size: 2.6rem;
+    }
+
+
+    /* =========================
+       FOOTER
+       ========================= */
+
+    footer {
+        padding: 40px;
+    }
+}

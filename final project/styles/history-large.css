@@ -1,0 +1,116 @@
+/* =========================
+   LARGE SCREENS
+   ========================= */
+
+@media screen and (min-width: 768px) {
+
+    #header-things {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        grid-template-columns: 65px 1fr auto;
+    }
+
+    #header-things h1 {
+        font-size: 1.25rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        grid-column: auto;
+        flex-direction: row;
+        gap: 0.5rem;
+        width: auto;
+    }
+
+    nav a {
+        border: none;
+        padding: 0.7rem 1rem;
+        border-radius: 5px;
+    }
+
+    nav a:hover,
+    nav a.active {
+        background-color: var(--soft-blue);
+    }
+
+    .history-intro {
+        padding: 6rem 2rem;
+    }
+
+    .history-intro h2 {
+        font-size: 3rem;
+    }
+
+    .history-intro > p:not(.eyebrow) {
+        font-size: 1.05rem;
+    }
+
+    .history-section {
+        padding: 6rem 2rem;
+    }
+
+    .section-heading h2 {
+        font-size: 2.5rem;
+    }
+
+    /*
+       Desktop arrangement:
+       
+       ┌───────────┬───────────┐
+       │ Card 1    │ Card 2    │
+       ├───────────┼───────────┤
+       │ Card 3    │ Card 4    │
+       ├───────────┼───────────┤
+       │ Card 5    │ Card 6    │
+       ├───────────┼───────────┤
+       │ Card 7    │ Card 8    │
+       └───────────┴───────────┘
+    */
+
+    #event-card-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2.5rem;
+    }
+
+    .history-card img {
+        height: 250px;
+    }
+
+    .history-card-content {
+        padding: 1.8rem;
+    }
+
+    .translation-section {
+        padding: 6rem 2rem;
+    }
+
+    .translation-content h2 {
+        font-size: 2.5rem;
+    }
+}
+
+
+/* =========================
+   VERY LARGE SCREENS
+   ========================= */
+
+@media screen and (min-width: 1100px) {
+
+    #event-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1150px;
+    }
+
+    .history-card {
+        min-height: 100%;
+    }
+
+    .history-card img {
+        height: 280px;
+    }
+}
